@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/style.css">
+  <title>disney </title>
+</head>
+
+<body>
+  <header>
+    <h1>Personagens da Disney</h1>
+    <span></span>
+  </header>
+
+  <section id="#disney-list"></section>
+
+
+  <button id="more" onclick="viewMore()">Ver mais</button>
+
+  <footer ></footer>
+
+
+
+  <section style="display: none" id="modal-overlay">
+    <div id="modal" class="modal-item">
+        <span id="close-modal">x</span>
+        `<div class="card">
+            <img class="image-disneymod" width="200px"  src=${data.data[length].imageUrl
+                } alt= Imagem />
+            <div>
+                <h2 class="name-disneymod"></h2>
+                <p class="id-disneymod"></p>
+                <h4>Quantidade de longas metragens</h4>
+                <h2 class="qa-disneymod"></h2>
+                <h4>Quantidade de curtas-metragens</h4>
+                <p class="tipo-disneymod"> 
+                    <h2 class="qb-disneymod"></h2></p>
+                
+                
+                <h4>Quantidade de programas de TVs</h4>
+                <p class="qtv-disneymod"> <h2 class="name-disneymod"></h2></p>
+    
+                <span class="character-idmod" style="display: none "></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <script src="./public/script2.js"></script>
+</body>
+
+</html>
+
+
+
